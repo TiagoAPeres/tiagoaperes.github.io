@@ -161,7 +161,10 @@
         itemSelector: '.isotope-item',
         layoutMode: layout,
         filter: filter,
-        sortBy: sort
+        sortBy: sort,
+        getSortData: {
+          customPosition: '.custom-position' // Add custom sort data if needed
+        }
       });
     });
 

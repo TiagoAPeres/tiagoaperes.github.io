@@ -1632,6 +1632,19 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+.isotope-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
+
+.isotope-item {
+  flex: 1 1 calc(33.333% - 1rem); /* Adjust the width of the items */
+}
+
+.custom-position {
+  order: 4; /* This will place the item in the desired position */
+}
+  
+  
